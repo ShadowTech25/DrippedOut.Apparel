@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dripped Out Apparel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Dripped Out</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+    <div class="cart-icon" onclick="toggleCart()">🛒</div>
+  </header>
+  <section class="section">
+    <div class="section-title">Welcome to Dripped Out Apparel</div>
+    <p style="text-align:center;">Streetwear that speaks. Style that drips.</p>
+  </section>
+  <div class="cart" id="cart">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <button onclick="checkout()">Checkout</button>
+  </div>
+  <footer>&copy; 2025 Dripped Out Apparel. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
